@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+Loja Tech - E-commerce React
+Um site de loja online desenvolvido com React, totalmente responsivo e com navegação entre páginas sem recarregar.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Como Rodar o Projeto
+Clone o repositório
 
-## Available Scripts
+bash
+git clone https://github.com/seu-usuario/loja-tech-react.git
+cd loja-tech-react
+Instale as dependências
 
-In the project directory, you can run:
+bash
+npm install
+Inicie o servidor
 
-### `npm start`
+bash
+npm start
+Acesse no navegador
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+text
+http://localhost:3000
+📱 Páginas do Site
+Home - Página inicial com produtos em destaque
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Produtos - Lista completa de produtos
 
-### `npm test`
+Sobre - Informações sobre a loja
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contato - Formulário para entrar em contato
 
-### `npm run build`
+🛠️ Tecnologias Usadas
+React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React Router (para navegação)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CSS Modules (para estilos)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript ES6+
 
-### `npm run eject`
+📁 Estrutura de Pastas
+text
+src/
+├── components/     # NavBar e Footer (aparecem em todas as páginas)
+├── pages/         # 4 páginas do site
+├── data/          # Lista de produtos
+└── styles/        # CSS global
+✅ Requisitos Atendidos
+✔️ 4 páginas com navegação SPA
+✔️ NavBar e Footer fixos em todas as páginas
+✔️ Design responsivo (funciona em celular e desktop)
+✔️ CSS Modules para estilização
+✔️ Props para passar dados entre componentes
+✔️ Organização clara de pastas e arquivos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔗 Links de Navegação
+/ - Página inicial
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+/about - Sobre a loja
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+/products - Produtos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+/contact - Contato
 
-## Learn More
+🎯 Funcionalidades
+Navegação rápida sem recarregar a página
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lista de produtos com preços e categorias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Formulário de contato
 
-### Code Splitting
+Layout que se adapta ao tamanho da tela
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Estilos organizados e sem conflitos
 
-### Analyzing the Bundle Size
+📞 Contato
+Email: contato@lojatech.com
+Telefone: (11) 99999-9999
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projeto acadêmico - Desenvolvido com React para sistemas web responsivos.
