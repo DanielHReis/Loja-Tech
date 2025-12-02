@@ -1,0 +1,22 @@
+/* reset simples */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #f8f9fb;
+  color: #0b1a2b
+}
+
+a {
+  color: inherit
+}
+
+/* pequenas melhorias responsivas */
+@media (max-width: 600px) {
+  body {
+    font-size: 15px
+  }
+}

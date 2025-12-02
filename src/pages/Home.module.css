@@ -1,0 +1,38 @@
+.hero {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #0b74de;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hero a:hover {
+    background-color: #095fb9;
+}
+
+.home ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.home li {
+    margin: 8px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+.home li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: green;
+}

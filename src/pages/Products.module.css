@@ -1,0 +1,30 @@
+/* Adicione no final do Products.module.css */
+
+.description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 8px 0;
+}
+
+.buyButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.buyButton:hover {
+    background-color: #218838;
+}
+
+.info {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
