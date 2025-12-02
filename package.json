@@ -1,4 +1,5 @@
 {
+  "homepage": "https://DanielHReis.github.io/Loja-Tech/"
   "name": "projetosuzana",
   "version": "0.1.0",
   "private": true,
@@ -37,3 +38,4 @@
     ]
   }
 }
+
